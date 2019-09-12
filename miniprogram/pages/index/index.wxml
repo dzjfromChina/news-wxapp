@@ -13,7 +13,7 @@
     <view class='content'>
       <view class="blank"></view>
       <view class="title">{{news.title}}</view>
-      <view class="main">{{news.main}}</view>
+      <view class="main" bindtap="detail" data-id="{{news.id}}">{{news.main}}</view>
       <view class="people">{{news.people}}
         <i-icon type="enter" />
       </view>
