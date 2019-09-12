@@ -1,0 +1,28 @@
+<view class="head">
+  <view class="head-left">
+    今天
+  </view>
+  <view class="head-right">
+    <i-icon type="add" />订阅晚报
+  </view>
+</view>
+
+<view class="container">
+
+  <view wx:for="{{newses}}" wx:for-index="newsId" wx:for-item="news">
+    <view class='content'>
+      <view class="blank"></view>
+      <view class="title">{{news.title}}</view>
+      <view class="main">{{news.main}}</view>
+      <view class="people">{{news.people}}
+        <i-icon type="enter" />
+      </view>
+      <view class="view4">
+        <view class="view41">{{news.mt}} </view>
+        <view class="view42">
+          <i-icon type="share_fill" size="24" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,97 @@
+.card {
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+
+page {
+  background-color: #f5f5f5;
+}
+
+/** 主要内容。 **/
+
+.main {
+  height: 250rpx;
+  text-align: left;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  margin: 0rpx 50rpx 0rpx 0rpx;
+}
+
+.people {
+  text-align: left;
+  padding-left: 30rpx;
+  /**margin: 10rpx 0rpx 10rpx 0rpx;  如果提供全部四个参数值，将按上、右、下、左的顺序作用于四边。 **/
+  height: 50rpx;
+}
+
+.view4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50rpx;
+}
+
+.view41 {
+  text-align: left;
+  padding-left: 30rpx;
+  font-family: "幼圆";
+  color: rgb(12, 12, 12);
+  font-size: 25rpx;
+}
+
+.view42 {
+  text-align: right;
+  padding-right: 30rpx;
+}
+.blank{
+    height: 2rpx;
+}
+.content {
+  width: 700rpx;
+  height: 495rpx;
+  border-radius: 18rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  border: 0rpx solid rgba(187, 187, 187, 1); /** 边框 **/
+  background: #fff;
+  flex-direction: column;
+  margin: 0rpx 0rpx 10rpx 0rpx;
+}
+
+.container {
+  width: 740rpx;
+  height: 350rpx;
+  text-align: center; /** 水平居中 **/
+}
+
+/** 标题 **/
+
+.title {
+  height: 90rpx;
+  font-family: "微软雅黑体";
+  color: rgb(12, 12, 12);
+  font-size: 35rpx;
+  margin: 50rpx 0rpx 0rpx 0rpx; /**如果提供全部四个参数值，将按上、右、下、左的顺序作用于四边。 **/
+}
+
+/** 头部**/
+
+.head {
+  width: 700rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50rpx;
+}
+
+.head-right {
+  text-align: left;
+  padding-right: 10rpx;
+}
+
+.head-left {
+  text-align: right;
+  padding-left: 40rpx;
+}

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundColor": "#696969",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "晚报",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
